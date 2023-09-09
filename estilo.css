@@ -1,0 +1,71 @@
+.card{
+	width: 1000px;
+	height: 1000px;
+
+	background: white;
+	text-align: center;
+
+	/* Borda da esquerda*/
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #8FBC8F;
+
+	/* Borda inferior*/
+	border-bottom-width: 15px;
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #8FBC8F;
+
+ 	/* borda da direita */
+ 	border-right-width: 10px;
+ 	border-right-style: solid;
+ 	border-right-color: #8FBC8F;
+
+ 	/* Borda do topo*/
+	border-top-width: 15px;
+ 	border-top-style: solid;
+ 	border-top-color: #8FBC8F;
+}
+
+.imagem{
+	width: 120px;
+	height: 120px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 0px;
+}
+
+.titulo #projeto{
+	font-size: 26px;
+	margin-top: 0px;
+	list-style-type: none;
+
+}
+
+.titulo #if{
+	margin-top: 0px;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+.titulo #declaracao{
+	font-size: 26px;
+	margin-top: 40px;
+}
+
+.card p{
+	font-size: 20px;
+}
+
+.assinatura p{
+	font-size: 18px;
+}
+
+.assinatura #palmas{
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.assinatura #valida{
+	text-align: left;
+	margin-left: 15px;
+}
